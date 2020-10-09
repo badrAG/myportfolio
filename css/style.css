@@ -181,6 +181,15 @@ caption {
   color: #6c757d;
   text-align: left;
   caption-side: bottom; }
+  .modal-content{
+    border: none !important;
+  }
+
+  @media (min-width: 576px){
+  .modal-dialog {
+      max-width: 800px !important;
+      margin: 1.75rem auto;
+  }}
 
 th {
   text-align: inherit; }
